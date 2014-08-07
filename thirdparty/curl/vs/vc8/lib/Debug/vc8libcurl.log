@@ -1,9 +1,253 @@
-﻿Build started 2014/8/5 20:05:33.
-     1>Project "C:\Users\Administrator\Desktop\PDF\MuPDF\mupdf-1.3-source\mupdf-1.3-source\thirdparty\curl\vs\vc8\lib\vc8libcurl.vcxproj" on node 2 (clean target(s)).
-     1>_PrepareForClean:
-         Deleting file ".\Debug\libcurl.lastbuildstate".
-     1>Done Building Project "C:\Users\Administrator\Desktop\PDF\MuPDF\mupdf-1.3-source\mupdf-1.3-source\thirdparty\curl\vs\vc8\lib\vc8libcurl.vcxproj" (clean target(s)).
+﻿Build started 2014/8/7 10:43:16.
+     1>Project "D:\os doc\ZWCAD-Open-Source-Project\PDFImportGitHub\trunk\thirdparty\curl\vs\vc8\lib\vc8libcurl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\libcurl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\..\..\include /Zi /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D BUILDING_LIBCURL /D CURL_STATICLIB /D CURL_DISABLE_LDAP /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\..\..\lib\amigaos.c "..\..\..\lib\asyn-ares.c" "..\..\..\lib\asyn-thread.c" ..\..\..\lib\axtls.c ..\..\..\lib\base64.c ..\..\..\lib\bundles.c ..\..\..\lib\conncache.c ..\..\..\lib\connect.c ..\..\..\lib\content_encoding.c ..\..\..\lib\cookie.c ..\..\..\lib\curl_addrinfo.c ..\..\..\lib\curl_darwinssl.c ..\..\..\lib\curl_fnmatch.c ..\..\..\lib\curl_gethostname.c ..\..\..\lib\curl_gssapi.c ..\..\..\lib\curl_memrchr.c ..\..\..\lib\curl_multibyte.c ..\..\..\lib\curl_ntlm.c ..\..\..\lib\curl_ntlm_core.c ..\..\..\lib\curl_ntlm_msgs.c ..\..\..\lib\curl_ntlm_wb.c ..\..\..\lib\curl_rand.c ..\..\..\lib\curl_rtmp.c ..\..\..\lib\curl_sasl.c ..\..\..\lib\curl_schannel.c ..\..\..\lib\curl_sspi.c ..\..\..\lib\curl_threads.c ..\..\..\lib\cyassl.c ..\..\..\lib\dict.c ..\..\..\lib\easy.c ..\..\..\lib\escape.c ..\..\..\lib\file.c ..\..\..\lib\fileinfo.c ..\..\..\lib\formdata.c ..\..\..\lib\ftp.c ..\..\..\lib\ftplistparser.c ..\..\..\lib\getenv.c ..\..\..\lib\getinfo.c ..\..\..\lib\gopher.c ..\..\..\lib\gtls.c ..\..\..\lib\hash.c ..\..\..\lib\hmac.c ..\..\..\lib\hostasyn.c ..\..\..\lib\hostcheck.c ..\..\..\lib\hostip.c ..\..\..\lib\hostip4.c ..\..\..\lib\hostip6.c ..\..\..\lib\hostsyn.c ..\..\..\lib\http.c ..\..\..\lib\http_chunks.c ..\..\..\lib\http_digest.c ..\..\..\lib\http_negotiate.c ..\..\..\lib\http_negotiate_sspi.c ..\..\..\lib\http_proxy.c ..\..\..\lib\idn_win32.c ..\..\..\lib\if2ip.c ..\..\..\lib\imap.c ..\..\..\lib\inet_ntop.c ..\..\..\lib\inet_pton.c ..\..\..\lib\krb4.c ..\..\..\lib\krb5.c ..\..\..\lib\ldap.c ..\..\..\lib\llist.c ..\..\..\lib\md4.c ..\..\..\lib\md5.c ..\..\..\lib\memdebug.c ..\..\..\lib\mprintf.c ..\..\..\lib\multi.c ..\..\..\lib\netrc.c "..\..\..\lib\non-ascii.c" ..\..\..\lib\nonblock.c ..\..\..\lib\nss.c ..\..\..\lib\openldap.c ..\..\..\lib\parsedate.c ..\..\..\lib\pingpong.c ..\..\..\lib\pipeline.c ..\..\..\lib\polarssl.c ..\..\..\lib\polarssl_threadlock.c ..\..\..\lib\pop3.c ..\..\..\lib\progress.c ..\..\..\lib\qssl.c ..\..\..\lib\rawstr.c ..\..\..\lib\rtsp.c ..\..\..\lib\security.c ..\..\..\lib\select.c ..\..\..\lib\sendf.c ..\..\..\lib\share.c ..\..\..\lib\slist.c ..\..\..\lib\smtp.c ..\..\..\lib\socks.c ..\..\..\lib\socks_gssapi.c ..\..\..\lib\socks_sspi.c ..\..\..\lib\speedcheck.c ..\..\..\lib\splay.c ..\..\..\lib\ssh.c ..\..\..\lib\sslgen.c ..\..\..\lib\ssluse.c ..\..\..\lib\strdup.c ..\..\..\lib\strequal.c ..\..\..\lib\strerror.c ..\..\..\lib\strtok.c ..\..\..\lib\strtoofft.c ..\..\..\lib\telnet.c ..\..\..\lib\tftp.c ..\..\..\lib\timeval.c ..\..\..\lib\transfer.c ..\..\..\lib\url.c ..\..\..\lib\version.c ..\..\..\lib\warnless.c ..\..\..\lib\wildcard.c
+         wildcard.c
+         warnless.c
+         version.c
+         url.c
+         transfer.c
+         timeval.c
+         tftp.c
+         telnet.c
+         strtoofft.c
+         strtok.c
+         strerror.c
+         strequal.c
+         strdup.c
+         ssluse.c
+         sslgen.c
+         ssh.c
+         splay.c
+         speedcheck.c
+         socks_sspi.c
+         socks_gssapi.c
+         Generating Code...
+         Compiling...
+         socks.c
+         smtp.c
+         slist.c
+         share.c
+         sendf.c
+         select.c
+         security.c
+         rtsp.c
+         rawstr.c
+         qssl.c
+         progress.c
+         pop3.c
+         polarssl_threadlock.c
+         polarssl.c
+         pipeline.c
+         pingpong.c
+         parsedate.c
+         openldap.c
+         nss.c
+         nonblock.c
+         Generating Code...
+         Compiling...
+         non-ascii.c
+         netrc.c
+         multi.c
+         mprintf.c
+         memdebug.c
+         md5.c
+         md4.c
+         llist.c
+         ldap.c
+         krb5.c
+         krb4.c
+         inet_pton.c
+         inet_ntop.c
+         imap.c
+         if2ip.c
+         idn_win32.c
+         http_proxy.c
+         http_negotiate_sspi.c
+         http_negotiate.c
+         http_digest.c
+         Generating Code...
+         Compiling...
+         http_chunks.c
+         http.c
+         hostsyn.c
+         hostip6.c
+         hostip4.c
+         hostip.c
+         hostcheck.c
+         hostasyn.c
+         hmac.c
+         hash.c
+         gtls.c
+         gopher.c
+         getinfo.c
+         getenv.c
+         ftplistparser.c
+         ftp.c
+         formdata.c
+         fileinfo.c
+         file.c
+         escape.c
+         Generating Code...
+         Compiling...
+         easy.c
+         dict.c
+         cyassl.c
+         curl_threads.c
+         curl_sspi.c
+         curl_schannel.c
+         curl_sasl.c
+         curl_rtmp.c
+         curl_rand.c
+         curl_ntlm_wb.c
+         curl_ntlm_msgs.c
+         curl_ntlm_core.c
+         curl_ntlm.c
+         curl_multibyte.c
+         curl_memrchr.c
+         curl_gssapi.c
+         curl_gethostname.c
+         curl_fnmatch.c
+         curl_darwinssl.c
+         curl_addrinfo.c
+         Generating Code...
+         Compiling...
+         cookie.c
+         content_encoding.c
+         connect.c
+         conncache.c
+         bundles.c
+         base64.c
+         axtls.c
+         asyn-thread.c
+         asyn-ares.c
+         amigaos.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0409" /nologo /fo".\Debug\libcurl.res" ..\..\..\lib\libcurl.rc 
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Debug\libcurl.lib" /NOLOGO .\Debug\libcurl.res
+         .\Debug/amigaos.obj
+         ".\Debug/asyn-ares.obj"
+         ".\Debug/asyn-thread.obj"
+         .\Debug/axtls.obj
+         .\Debug/base64.obj
+         .\Debug/bundles.obj
+         .\Debug/conncache.obj
+         .\Debug/connect.obj
+         .\Debug/content_encoding.obj
+         .\Debug/cookie.obj
+         .\Debug/curl_addrinfo.obj
+         .\Debug/curl_darwinssl.obj
+         .\Debug/curl_fnmatch.obj
+         .\Debug/curl_gethostname.obj
+         .\Debug/curl_gssapi.obj
+         .\Debug/curl_memrchr.obj
+         .\Debug/curl_multibyte.obj
+         .\Debug/curl_ntlm.obj
+         .\Debug/curl_ntlm_core.obj
+         .\Debug/curl_ntlm_msgs.obj
+         .\Debug/curl_ntlm_wb.obj
+         .\Debug/curl_rand.obj
+         .\Debug/curl_rtmp.obj
+         .\Debug/curl_sasl.obj
+         .\Debug/curl_schannel.obj
+         .\Debug/curl_sspi.obj
+         .\Debug/curl_threads.obj
+         .\Debug/cyassl.obj
+         .\Debug/dict.obj
+         .\Debug/easy.obj
+         .\Debug/escape.obj
+         .\Debug/file.obj
+         .\Debug/fileinfo.obj
+         .\Debug/formdata.obj
+         .\Debug/ftp.obj
+         .\Debug/ftplistparser.obj
+         .\Debug/getenv.obj
+         .\Debug/getinfo.obj
+         .\Debug/gopher.obj
+         .\Debug/gtls.obj
+         .\Debug/hash.obj
+         .\Debug/hmac.obj
+         .\Debug/hostasyn.obj
+         .\Debug/hostcheck.obj
+         .\Debug/hostip.obj
+         .\Debug/hostip4.obj
+         .\Debug/hostip6.obj
+         .\Debug/hostsyn.obj
+         .\Debug/http.obj
+         .\Debug/http_chunks.obj
+         .\Debug/http_digest.obj
+         .\Debug/http_negotiate.obj
+         .\Debug/http_negotiate_sspi.obj
+         .\Debug/http_proxy.obj
+         .\Debug/idn_win32.obj
+         .\Debug/if2ip.obj
+         .\Debug/imap.obj
+         .\Debug/inet_ntop.obj
+         .\Debug/inet_pton.obj
+         .\Debug/krb4.obj
+         .\Debug/krb5.obj
+         .\Debug/ldap.obj
+         .\Debug/llist.obj
+         .\Debug/md4.obj
+         .\Debug/md5.obj
+         .\Debug/memdebug.obj
+         .\Debug/mprintf.obj
+         .\Debug/multi.obj
+         .\Debug/netrc.obj
+         ".\Debug/non-ascii.obj"
+         .\Debug/nonblock.obj
+         .\Debug/nss.obj
+         .\Debug/openldap.obj
+         .\Debug/parsedate.obj
+         .\Debug/pingpong.obj
+         .\Debug/pipeline.obj
+         .\Debug/polarssl.obj
+         .\Debug/polarssl_threadlock.obj
+         .\Debug/pop3.obj
+         .\Debug/progress.obj
+         .\Debug/qssl.obj
+         .\Debug/rawstr.obj
+         .\Debug/rtsp.obj
+         .\Debug/security.obj
+         .\Debug/select.obj
+         .\Debug/sendf.obj
+         .\Debug/share.obj
+         .\Debug/slist.obj
+         .\Debug/smtp.obj
+         .\Debug/socks.obj
+         .\Debug/socks_gssapi.obj
+         .\Debug/socks_sspi.obj
+         .\Debug/speedcheck.obj
+         .\Debug/splay.obj
+         .\Debug/ssh.obj
+         .\Debug/sslgen.obj
+         .\Debug/ssluse.obj
+         .\Debug/strdup.obj
+         .\Debug/strequal.obj
+         .\Debug/strerror.obj
+         .\Debug/strtok.obj
+         .\Debug/strtoofft.obj
+         .\Debug/telnet.obj
+         .\Debug/tftp.obj
+         .\Debug/timeval.obj
+         .\Debug/transfer.obj
+         .\Debug/url.obj
+         .\Debug/version.obj
+         .\Debug/warnless.obj
+         .\Debug/wildcard.obj
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+         vc8libcurl.vcxproj -> D:\os doc\ZWCAD-Open-Source-Project\PDFImportGitHub\trunk\thirdparty\curl\vs\vc8\lib\.\Debug\libcurl.lib
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/libcurl.bsc" .\Debug\amigaos.sbr ".\Debug\asyn-ares.sbr" ".\Debug\asyn-thread.sbr" .\Debug\axtls.sbr .\Debug\base64.sbr .\Debug\bundles.sbr .\Debug\conncache.sbr .\Debug\connect.sbr .\Debug\content_encoding.sbr .\Debug\cookie.sbr .\Debug\curl_addrinfo.sbr .\Debug\curl_darwinssl.sbr .\Debug\curl_fnmatch.sbr .\Debug\curl_gethostname.sbr .\Debug\curl_gssapi.sbr .\Debug\curl_memrchr.sbr .\Debug\curl_multibyte.sbr .\Debug\curl_ntlm.sbr .\Debug\curl_ntlm_core.sbr .\Debug\curl_ntlm_msgs.sbr .\Debug\curl_ntlm_wb.sbr .\Debug\curl_rand.sbr .\Debug\curl_rtmp.sbr .\Debug\curl_sasl.sbr .\Debug\curl_schannel.sbr .\Debug\curl_sspi.sbr .\Debug\curl_threads.sbr .\Debug\cyassl.sbr .\Debug\dict.sbr .\Debug\easy.sbr .\Debug\escape.sbr .\Debug\file.sbr .\Debug\fileinfo.sbr .\Debug\formdata.sbr .\Debug\ftp.sbr .\Debug\ftplistparser.sbr .\Debug\getenv.sbr .\Debug\getinfo.sbr .\Debug\gopher.sbr .\Debug\gtls.sbr .\Debug\hash.sbr .\Debug\hmac.sbr .\Debug\hostasyn.sbr .\Debug\hostcheck.sbr .\Debug\hostip.sbr .\Debug\hostip4.sbr .\Debug\hostip6.sbr .\Debug\hostsyn.sbr .\Debug\http.sbr .\Debug\http_chunks.sbr .\Debug\http_digest.sbr .\Debug\http_negotiate.sbr .\Debug\http_negotiate_sspi.sbr .\Debug\http_proxy.sbr .\Debug\idn_win32.sbr .\Debug\if2ip.sbr .\Debug\imap.sbr .\Debug\inet_ntop.sbr .\Debug\inet_pton.sbr .\Debug\krb4.sbr .\Debug\krb5.sbr .\Debug\ldap.sbr .\Debug\llist.sbr .\Debug\md4.sbr .\Debug\md5.sbr .\Debug\memdebug.sbr .\Debug\mprintf.sbr .\Debug\multi.sbr .\Debug\netrc.sbr ".\Debug\non-ascii.sbr" .\Debug\nonblock.sbr .\Debug\nss.sbr .\Debug\openldap.sbr .\Debug\parsedate.sbr .\Debug\pingpong.sbr .\Debug\pipeline.sbr .\Debug\polarssl.sbr .\Debug\polarssl_threadlock.sbr .\Debug\pop3.sbr .\Debug\progress.sbr .\Debug\qssl.sbr .\Debug\rawstr.sbr .\Debug\rtsp.sbr .\Debug\security.sbr .\Debug\select.sbr .\Debug\sendf.sbr .\Debug\share.sbr .\Debug\slist.sbr .\Debug\smtp.sbr .\Debug\socks.sbr .\Debug\socks_gssapi.sbr .\Debug\socks_sspi.sbr .\Debug\speedcheck.sbr .\Debug\splay.sbr .\Debug\ssh.sbr .\Debug\sslgen.sbr .\Debug\ssluse.sbr .\Debug\strdup.sbr .\Debug\strequal.sbr .\Debug\strerror.sbr .\Debug\strtok.sbr .\Debug\strtoofft.sbr .\Debug\telnet.sbr .\Debug\tftp.sbr .\Debug\timeval.sbr .\Debug\transfer.sbr .\Debug\url.sbr .\Debug\version.sbr .\Debug\warnless.sbr .\Debug\wildcard.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\libcurl.unsuccessfulbuild".
+         Touching ".\Debug\libcurl.lastbuildstate".
+     1>Done Building Project "D:\os doc\ZWCAD-Open-Source-Project\PDFImportGitHub\trunk\thirdparty\curl\vs\vc8\lib\vc8libcurl.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.28
+Time Elapsed 00:01:11.34

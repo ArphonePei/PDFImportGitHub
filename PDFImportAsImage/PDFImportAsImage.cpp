@@ -295,7 +295,9 @@ void pdfImport()
 }
 
 void initApp()
-{ 
+{
+	acutPrintf(_T("\nThis is a free software under the terms of GNU-GPL v3."));
+	acutPrintf(_T("\nYou can access its source code here: <https://github.com/ArphonePei/PDFImportGitHub>"));
 	acedRegCmds->addCommand(_T("ZOSP"), _T("PdfImport"), _T("PdfImport"), ACRX_CMD_MODAL, pdfImport);
 }
 
